@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         float[] gradient_points = new float[]{0.0f, 0.125f, 0.25f, 0.375f, 1.0f};
 
 
-        seekBar_speed.setProgress(speedometerView.getSpeed_current_angle());
+        seekBar_speed.setProgress(speedometerView.getSpeedCurrentAngle());
 
         /*
         * Пример настройки speedomerView

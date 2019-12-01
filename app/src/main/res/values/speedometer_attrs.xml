@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Аттрибуты спидометра -->
+    <!-- Атрибуты спидометра -->
 
     <declare-styleable name="SpeedometerView">
         <attr name="speed_current" format="integer"/>

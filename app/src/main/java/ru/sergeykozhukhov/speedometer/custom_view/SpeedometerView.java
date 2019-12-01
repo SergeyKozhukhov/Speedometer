@@ -285,7 +285,7 @@ public class SpeedometerView extends View {
         invalidate();
     }
 
-    public int getSpeed_current_angle() {
+    public int getSpeedCurrentAngle() {
         return speed_current_angle;
     }
 
