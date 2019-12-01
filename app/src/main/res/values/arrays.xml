@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Красно-желтые цвета градиента по умолчанию -->
+
+    <integer-array name="array_gradient_colors">
+        <!--ORANGERED-->
+        <item>0xFFFF4500</item>
+        <!--RED-->
+        <item>0xFFFF0000</item>
+        <!--NULL-->
+        <item>0</item>
+        <!--YELLOW-->
+        <item>0xFFFFFF00</item>
+        <!--GOLD-->
+        <item>0xFFFFD700</item>
+        <!--ORANGE-->
+        <item>0xFFFFA500</item>
+        <!--ORANGERED-->
+        <item>0xFFFF4500</item>
+    </integer-array>
+
+    <!-- Точки для красно-желтых цветов градиента по умолчанию -->
+
+    <integer-array name="array_gradient_points">
+        <!--ORANGERED-->
+        <item>0</item>
+        <!--RED-->
+        <item>125</item>
+        <!--NULL-->
+        <item>250</item>
+        <!--YELLOW-->
+        <item>375</item>
+        <!--GOLD-->
+        <item>500</item>
+        <!--ORANGE-->
+        <item>750</item>
+        <!--ORANGERED-->
+        <item>1000</item>
+    </integer-array>
+
+    <!-- Сине-былые цвета градиента -->
+    <integer-array name="array_gradient_colors_1">
+        <!--BLUE-->
+        <item>0xFF0000FF</item>
+        <!--DARKBLUE-->
+        <item>0xFF00008B</item>
+        <!--NULL-->
+        <item>0</item>
+        <!--WHITE-->
+        <item>0xFFFFFFFF</item>
+        <!--BLUE-->
+        <item>0xFF0000FF</item>
+    </integer-array>
+
+    <!-- Точки для сине-былых цветов градиента -->
+    <integer-array name="array_gradient_points_1">
+        <!--BLUE-->
+        <item>0</item>
+        <!--DARKBLUE-->
+        <item>125</item>
+        <!--NULL-->
+        <item>250</item>
+        <!--WHITE-->
+        <item>375</item>
+        <!--BLUE-->
+        <item>1000</item>
+
+    </integer-array>
+
+
+</resources>

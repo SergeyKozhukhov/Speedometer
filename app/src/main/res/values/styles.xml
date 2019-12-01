@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SpeedometerViewDefault">
+        <item name ="speed_max"></item>
+        <item name="arrow_color">@color/colorRed</item>
+        <item name="gradient_colors">@array/array_gradient_colors</item>
+        <item name="gradient_points">@array/array_gradient_points</item>
+    </style>
+
+
+</resources>

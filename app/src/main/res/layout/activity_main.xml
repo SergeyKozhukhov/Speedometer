@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ru.sergeykozhukhov.speedometer.custom_view.SpeedometerView
+        android:id="@+id/speedometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <!-- Пример настройки Спидометра-->
+        <!--app:speed_current="140"
+        app:speed_max="300"
+        app:arrow_color="@color/colorBlue"
+        app:gradient_colors="@array/array_gradient_colors_1"
+        app:gradient_points="@array/array_gradient_points_1"-->
+
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/seekBar_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="270"
+        android:layout_gravity="bottom"/>
+
+</FrameLayout>

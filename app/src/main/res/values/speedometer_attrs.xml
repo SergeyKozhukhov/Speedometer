@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Аттрибуты спидометра -->
+
+    <declare-styleable name="SpeedometerView">
+        <attr name="speed_current" format="integer"/>
+        <attr name="speed_max" format="integer" />
+        <attr name="arrow_color" format="color" />
+        <attr name="gradient_colors" format="reference" />
+        <attr name="gradient_points" format="reference" />
+    </declare-styleable>
+
+</resources>
