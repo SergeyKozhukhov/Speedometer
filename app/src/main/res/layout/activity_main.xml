@@ -7,9 +7,9 @@
     tools:context=".MainActivity">
 
     <ru.sergeykozhukhov.speedometer.custom_view.SpeedometerView
-        android:id="@+id/speedometer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:id="@+id/speedometer_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
         <!-- Пример настройки Спидометра-->
         <!--app:speed_current="140"
