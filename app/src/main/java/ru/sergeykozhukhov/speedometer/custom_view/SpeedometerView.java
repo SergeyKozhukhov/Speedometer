@@ -295,6 +295,7 @@ public class SpeedometerView extends View {
          * Отрисовка стрелки
          * */
 
+        canvas.save();
         canvas.rotate(speed_current_angle - 45, centre_x, centre_y);
         canvas.drawLine(centre_x - arrow_bottom, centre_y, centre_x - arrow_top, centre_y, ARROW);
         canvas.restore();
